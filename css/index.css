@@ -166,6 +166,10 @@ p {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-bottom: 2rem;
 }
 .navContainer h1 {
   font-size: 4rem;
@@ -178,6 +182,7 @@ p {
   padding: 1.7rem 0 1.3rem 0;
   width: 31%;
   font-size: 1.6rem;
+  min-width: 34rem;
 }
 .navContainer nav a {
   text-decoration: none;
@@ -197,6 +202,10 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home {
+  /* avoid content overlay on fixed nav */
+  margin-top: 9.67rem;
 }
 .home header img {
   border-radius: 0.5rem;
@@ -301,6 +310,10 @@ footer {
   border-radius: 0.5rem;
   font-size: 1.8rem;
   font-weight: bold;
+}
+.home .walk .walk-text .btn:hover {
+  color: #23293B;
+  background: #F6F7F8;
 }
 @media (max-width: 500px) {
   .home .walk .walk-text .btn {
