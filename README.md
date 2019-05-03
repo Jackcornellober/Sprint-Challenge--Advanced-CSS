@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+    Adaptive websites have different layouts that snap into place at different specific screen sizes. While a fully responsive website may include media queries as well, it also includes a fluid design so that the page will adjust fluidly to each tiny change in device/screen size.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+    If I wanted to design for mobile first, I would do exactly that. I would use developer tools to view my HTML in 500px width and code so that it looked the way I wanted. From there, I'd have to insert media queries in places that needed to look different on a desktop. The key difference between mobile first and desktop first is that I would use MIN WIDTH media queries when developing mobile first, and max width queries for desktop first.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+    It makes it so that 1rem = 10px
+
 4. How would you describe preprocessing to someone new to CSS?
+    
+    It's a program that enhances our CSS capabilities. Essentially you can write css with additional functionality that doesn't exist in the base language, and the preprocessor program will read your code and translate it into the base language for you. I assume that some time in the future these functionalities will be integrated into CSS itself, or will come pre-packaged with code editors like VSCode.
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+    I like nesting and parametric mixins. I don't like escapes - They seem completely uneccesary. (from what I understand, they used to be useful but now they're just kind of a relic?)
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

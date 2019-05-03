@@ -1,1 +1,23 @@
 // Navigation code here
+
+
+
+.navContainer {
+    background: @wild-sand;
+    .flexCenter();
+    flex-direction: column;
+    h1 {
+        font-size: 4rem;
+        padding-top: 1rem;
+    }
+    nav {
+        .flexCustom(space-between,center);
+        padding: 1.7rem 0 1.3rem 0;
+        width: 31%;
+        font-size: 1.6rem;
+        a {
+            text-decoration: none;
+            color: @ebony-clay;
+        }
+    }
+}
