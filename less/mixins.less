@@ -1,1 +1,22 @@
 // Mixins Here
+
+.flexCustom(@justify,@align) {
+    display: flex;
+    justify-content: @justify;
+    align-items: @align;
+}
+
+.flexCenter() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonCustom(@width,@height,@background,@color) {
+    width: @width;
+    height: @height;
+    background: @background;
+    color: @color;
+    .flexCenter();
+    border-radius: .5rem;
+}
