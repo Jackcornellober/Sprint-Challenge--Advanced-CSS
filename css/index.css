@@ -208,11 +208,12 @@ footer {
   margin-top: 9.67rem;
 }
 .home header img {
+  width: 100%;
   border-radius: 0.5rem;
 }
 @media (max-width: 500px) {
   .home header img {
-    width: 500px;
+    width: 100%;
   }
 }
 .home .intro h2 {
